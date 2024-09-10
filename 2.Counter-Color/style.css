@@ -1,0 +1,31 @@
+body {
+    background-color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#counter {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+#counterDisplay {
+    font-size: 4rem;
+    text-align: center;
+    color: white;
+}
+
+#counter button {
+    border: 0;
+    padding: .5rem;
+    font-size: 2rem;
+    cursor: pointer;
+} 
+
+#counterAdd {
+    background-color: greenyellow;
+}
+
+#counterSub {
+    background-color: red;
+}
